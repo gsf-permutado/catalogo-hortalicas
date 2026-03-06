@@ -6,7 +6,7 @@ A identificação das principais culturas hortícolas produzidas na região cons
 
 Com base em levantamentos recentes e tendências observadas para **2025–2026**, verifica-se uma consolidação da olericultura no Distrito Federal, caracterizada pela diversidade de espécies cultivadas e pela forte presença da **agricultura familiar**, responsável pela maior parte do abastecimento alimentar regional.
 
-Segundo dados da **EMATER-DF**, a produção anual de hortaliças no Distrito Federal gira em torno de **260 mil toneladas**, movimentando aproximadamente **R$ 1,7 a R$ 1,9 bilhão na cadeia produtiva**, com cerca de **3,9 mil produtores rurais envolvidos**, majoritariamente pequenos produtores familiares. :contentReference[oaicite:0]{index=0}
+Segundo dados da **EMATER-DF**, a produção anual de hortaliças no Distrito Federal gira em torno de **260 mil toneladas**, movimentando aproximadamente **R$ 1,7 a R$ 1,9 bilhão na cadeia produtiva**, com cerca de **3,9 mil produtores rurais envolvidos**, majoritariamente pequenos produtores familiares.
 
 ---
 

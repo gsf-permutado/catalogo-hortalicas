@@ -7,3 +7,5 @@ Mas é fundamental primeiro levantar quais são as principais culturas produzida
 📊 [Informações Importantes sobre a produção de hortaliças no Distrito Federal](docs/contexto.md)
 
 📄 [Documentação do escopo do projeto](docs/escopo.md)
+
+☑️ [Conheça os requisitos do sistema](docs/requisitos.md)

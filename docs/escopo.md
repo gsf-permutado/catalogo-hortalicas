@@ -54,3 +54,16 @@ A definição das hortaliças cobertas pelo sistema permite:
 - aumentar a **eficiência do acompanhamento agrícola**.
 
 Esse levantamento constitui base para o desenvolvimento de funcionalidades futuras do sistema, como **monitoramento de produção, planejamento de plantio e análise de produtividade**.
+
+## Referências
+
+- EMATER-DF. **Agro do Quadrado: produção de hortaliças do DF abastece a mesa dos brasilienses**  
+  https://emater.df.gov.br/w/agro-do-quadrado-producao-de-hortalicas-do-df-abastece-a-mesa-dos-brasilienses
+
+- EMATER-DF. *AGROEMATER – Informação Técnica nº 1/2024*.  
+  Empresa de Assistência Técnica e Extensão Rural do Distrito Federal.  
+  Disponível em: https://emater.df.gov.br/documents/25679385/26114142/AGROEMATER_1-de-2024.pdf
+
+- IPEDF Codeplan. *Caracterização da Agricultura Urbana e Periurbana do Distrito Federal*.  
+  Instituto de Pesquisa e Estatística do Distrito Federal, 2023.  
+  https://www.ipe.df.gov.br/documents/9915964/10232299/Relatorio-Caracterizacao-da-Agricultura-Urbana-e-Periurbana-do-Distrito-Federal.pdf

@@ -1,2 +1,3 @@
-# catalogo-hortalicas
-Projeto de Extensão II (ADS). Catálogo responsivo de pragas e doenças em hortaliças para apoio a produtores locais.
+# 🌿 Catálogo de Classificação de Doenças e Pragas em Hortaliças
+
+Este projeto tem como objetivo criar uma página em que seja possível classificar e estruturar informações importantes sobre as características físicas, descrições detalhadas, bem como aspectos relacionados ao controle e combate de doenças e pragas nas principais culturas de pequenos produtores rurais do Distrito Federal (DF) e outras regiões que se enquadram no grupo.

@@ -26,8 +26,6 @@ Este documento detalha as funcionalidades (Requisitos Funcionais) e as restriç�
 
 ---
 
----
-
 ## 3. Regras de Negócio (RN)
 *Premissas e limitações do projeto.*
 

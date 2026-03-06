@@ -13,8 +13,6 @@ Para democratizar o acesso à informação técnica e facilitar o desenvolviment
 
 ---
 
----
-
 ## 3. Objetivos do Desenvolvimento
 
 ### 3.1 Objetivo Geral

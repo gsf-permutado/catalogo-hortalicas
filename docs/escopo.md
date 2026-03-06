@@ -57,6 +57,8 @@ Esse levantamento constitui base para o desenvolvimento de funcionalidades futur
 
 ## Referências
 
+### OBS: ⚠️ Ao abrir os links abaixo você sairá desta página atual!
+
 - EMATER-DF. **Agro do Quadrado: produção de hortaliças do DF abastece a mesa dos brasilienses**  
   https://emater.df.gov.br/w/agro-do-quadrado-producao-de-hortalicas-do-df-abastece-a-mesa-dos-brasilienses
 

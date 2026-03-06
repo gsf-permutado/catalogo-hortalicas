@@ -1,11 +1,26 @@
 # 🌿 Catálogo de Classificação de Doenças e Pragas em Hortaliças
 
-Este projeto tem como objetivo criar uma página em que seja possível classificar e estruturar informações importantes sobre as características físicas, descrições detalhadas, bem como aspectos relacionados ao controle e combate de doenças e pragas nas principais culturas de pequenos produtores rurais do Distrito Federal (DF) e outras regiões que se enquadram no grupo.
+Este projeto de extensão universitária tem como objetivo fornecer uma ferramenta prática, visual e acessível para pequenos produtores rurais — com foco inicial no **Distrito Federal (DF)**. O sistema auxilia na identificação e manejo de patologias que afetam as principais culturas da região.
 
-Mas é fundamental primeiro levantar quais são as principais culturas produzidas pelos produtores rurais na região. Abaixo é possível acessar a documentação e pesquisa aprofundada do escopo deste projeto, bem como observar os números relacionados a produções e presença de mercado:
+## 🚀 O Projeto
+Diferente de sistemas complexos, este projeto utiliza a arquitetura de **Microsite Estático (Master-Detail)**. Isso garante que a ferramenta seja leve, rápida e funcional mesmo em áreas rurais com conectividade limitada.
 
-📊 [Informações Importantes sobre a produção de hortaliças no Distrito Federal](docs/contexto.md)
+* **Página Principal:** Painel intuitivo com cards de acesso rápido por cultura.
+* **Páginas de Detalhes:** Guias específicos para cada praga ou doença, com fotos e recomendações técnicas.
 
-📄 [Documentação do escopo do projeto](docs/escopo.md)
+## 📂 Documentação e Planejamento
+Para entender a base científica e técnica deste desenvolvimento, acesse os documentos abaixo:
 
-☑️ [Conheça os requisitos do sistema](docs/requisitos.md)
+* 📊 [Contexto e Mercado (Hortaliças no DF)](docs/contexto.md) - Levantamento das principais culturas e dados econômicos.
+* 📄 [Escopo do Projeto](docs/escopo.md) - Objetivos, delimitação técnica e metas de entrega.
+* ☑️ [Requisitos do Sistema](docs/requisitos.md) - Definição de funcionalidades (RF) e critérios de qualidade (RNF).
+
+## 🛠️ Tecnologias Utilizadas
+Focando em performance e compatibilidade com dispositivos móveis (Mobile-First):
+* **HTML5** (Estruturação semântica)
+* **CSS3** (Layout responsivo e acessibilidade)
+* **JavaScript Vanilla** (Interatividade leve)
+* **GitHub Pages** (Hospedagem e distribuição Open Source)
+
+---
+> **Nota de Extensão:** Este projeto é desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas (ADS), buscando integrar conhecimento técnico acadêmico às necessidades da comunidade agrícola local.

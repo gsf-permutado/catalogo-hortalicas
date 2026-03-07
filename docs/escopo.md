@@ -1,33 +1,50 @@
 # Escopo do Projeto: Microsite de Diagnóstico Agrícola (DF)
 
 ## 1. Definição Central do Problema
-Produtores rurais do Distrito Federal enfrentam desafios fitossanitários que comprometem a saúde das culturas. A dificuldade de acesso a diagnósticos rápidos e a complexidade da linguagem científica disponível tornam o manejo de pragas e doenças ineficiente, gerando perdas econômicas e uso inadequado de defensivos.
+Produtores rurais do Distrito Federal, em sua maioria vinculados à agricultura familiar, enfrentam desafios fitossanitários graves com suporte técnico limitado. A **escassez de recursos financeiros** para consultoria agronômica particular, somada ao **distanciamento da linguagem acadêmica** em relação ao saber tradicional, gera um vácuo de informação. 
+
+Isso resulta em manejos ineficientes, perda de safra e dependência de soluções paliativas. O produtor que cultiva por tradição (herança cultural) muitas vezes carece da compreensão técnica sobre como fatores como pH do solo, clima e nutrição influenciam diretamente na saúde da planta.
 
 ## 2. Solução Proposta: Microsite Master-Detail
-Para democratizar o acesso à informação, propõe-se o desenvolvimento de um **Microsite de Guia Fitossanitário**. A solução abandona a complexidade de bancos de dados dinâmicos em favor de uma arquitetura estática de alto desempenho:
+Propõe-se o desenvolvimento de um **Microsite de Guia Fitossanitário** focado em acessibilidade e tradução de conhecimento. O sistema utiliza uma arquitetura estática (HTML/CSS/JS) para garantir alto desempenho e baixo consumo de dados:
 
-* **Página Mestra (Master):** Uma Landing Page que funciona como índice visual das 10 principais hortaliças do DF (identificadas no documento de contexto).
-* **Páginas de Detalhe (Detail):** Documentos individuais para cada patologia, permitindo um aprofundamento técnico sem sobrecarregar a navegação do usuário.
+* **Página Mestra (Master):** Índice visual das 10 principais culturas do DF, desenhado para reconhecimento imediato por imagem.
+* **Páginas de Detalhe (Detail):** Documentos individuais que conectam o sintoma visual a práticas de manejo acessíveis, priorizando o que o produtor pode realizar com os recursos disponíveis em sua propriedade.
 
 ---
 
 ## 3. Objetivos do Desenvolvimento
 
 ### 3.1 Objetivo Geral
-Desenvolver uma ferramenta digital estática, leve e intuitiva para auxiliar produtores rurais na identificação visual de pragas e doenças, promovendo o manejo sustentável no cinturão verde do DF.
+Desenvolver uma ferramenta digital intuitiva que democratize o conhecimento técnico-agrícola, oferecendo diagnósticos visuais e alternativas de manejo de baixo custo para produtores rurais do DF.
 
 ### 3.2 Objetivos Específicos
-* **Curadoria de Conteúdo:** Catalogar as patologias mais recorrentes nas culturas de maior relevância regional (Tomate, Alface e Pimentão) com base em fontes como a Embrapa.
-* **Arquitetura de Páginas Estáticas:** Implementar a navegação via links diretos entre a página principal e as páginas de diagnóstico, garantindo compatibilidade com navegadores básicos.
-* **Desenvolvimento Mobile-First:** Criar um layout responsivo focado na usabilidade sob condições de campo (alto contraste e fontes legíveis).
-* **Otimização de Carregamento:** Minimizar o uso de scripts externos e imagens pesadas para assegurar a funcionalidade em redes móveis instáveis (2G/3G).
+* **Curadoria de Manejo Acessível:** Catalogar patologias focando em soluções acessíveis (adubação orgânica, caldas caseiras e podas), reduzindo a dependência de insumos de alto custo.
+* **Design Inclusivo (UX para o Campo):** Criar uma interface baseada em **comparação visual** e termos populares, respeitando o perfil do produtor tradicional.
+* **Arquitetura de Alto Desempenho:** Garantir navegação rápida e funcionalidade em redes móveis instáveis (2G/3G).
+* **Educação Técnica Gradual:** Introduzir conceitos de pH, solo e clima de forma simplificada, demonstrando como o conhecimento técnico evita prejuízos financeiros.
 
-## 4. Diferenciais da Abordagem Técnica
-1.  **Baixa Manutenção:** Por ser um site estático, não exige servidor de banco de dados, reduzindo custos e complexidade técnica.
-2.  **Acessibilidade Offline:** Uma vez carregado no navegador, o acesso às informações entre as páginas é mais rápido e consome menos dados.
-3.  **Foco em Resultados:** Prioriza a clareza visual (fotos e sintomas) em vez de funcionalidades burocráticas como login ou cadastros.
+---
 
-## 5. Delimitação de Entrega (MVP)
-Para o cronograma de 3 meses, o projeto focará em:
-* Landing Page completa com as 10 culturas listadas.
-* Páginas de detalhes completas para as culturas de **Tomate, Alface e Pimentão** (as de maior participação estimada).
+## 4. Diferenciais da Abordagem
+1.  **Linguagem Traduzida:** Uso de descrições baseadas no "o que se vê" (ex: "farinha branca na folha" para identificar Oídio).
+2.  **Sustentabilidade Econômica:** Priorização de técnicas de revitalização de plantas que não exigem investimento imediato em maquinário ou químicos caros.
+3.  **Valorização Profissional:** O sistema atua como "primeiro socorro", educando o produtor sobre quando a intervenção de um engenheiro agrônomo é vital para salvar o investimento da safra.
+
+---
+
+## 5. Pilares de Conteúdo Estratégico
+Cada página de detalhe será estruturada para responder às dores reais do cotidiano rural:
+
+* **Identificação Visual:** Galeria de fotos para comparação direta no pé da planta.
+* **Manejo e Prevenção:** Técnicas de irrigação, controle de ervas daninhas e espaçamento.
+* **Nutrição e Revitalização:** Alternativas de adubação, práticas de poda e recuperação de plantas debilitadas.
+* **Fatores Ambientais:** Orientações sobre época de plantio (seca vs. chuva) e noções básicas de solo e pH.
+
+---
+
+## 6. Delimitação de Entrega (MVP - 3 meses)
+* **Landing Page:** Painel com as 10 culturas listadas no documento de contexto.
+* **Páginas de Detalhes:** Conteúdo aprofundado e funcional para as culturas de **Tomate, Alface e Pimentão**.
+
+---

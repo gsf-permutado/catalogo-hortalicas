@@ -1,14 +1,30 @@
 body {
-    background-color: #c7ff8c;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
-/* Navbar geral */
+
+/* Overlay suave para melhorar leitura */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 20, 0, 0.18);
+    z-index: -1;
+}
+
+/* ================= NAVBAR ================= */
 .navbar {
     background: linear-gradient(90deg, #0a3d0a, #0f5f0f);
     padding: 0.8rem 1rem;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    border-bottom: 4px solid green;
 }
 
-/* Logo / marca */
 .navbar-brand {
     font-weight: 700;
     font-size: 1.4rem;
@@ -22,12 +38,11 @@ body {
     transform: scale(1.05);
 }
 
-/* Links do menu */
 .navbar-nav .nav-link {
     color: #e9ffe2 !important;
     font-weight: 500;
     margin-right: 10px;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
@@ -35,56 +50,55 @@ body {
     transform: translateY(-1px);
 }
 
-/* Botão hamburguer */
 .navbar-toggler {
     border: 2px solid #9cff57;
-    background-color: rgba(0,0,0,0.4);
-    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease;
 }
 
 .navbar-toggler:hover {
-    background-color: rgba(0,0,0,0.6);
-    border: 2px solid #2b4617;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: #2b4617;
 }
 
 .navbar-toggler:focus {
     box-shadow: none;
 }
 
-/* Campo de pesquisa */
+/* ================= FORMULÁRIO ================= */
 .form-control {
     background-color: #e9ffd3;
-    border: 1px solid #7ed957;
+    border: 2px solid #7ed957;
     border-radius: 20px;
 }
 
 .form-control:focus {
-    box-shadow: 0 0 5px rgba(126, 217, 87, 0.7);
+    box-shadow: 0 0 10px rgba(126, 217, 87, 0.7);
     border-color: #7ed957;
+    background-color: #f4ffe9;
 }
 
-/* Botão pesquisar */
 .btn-warning {
     border-radius: 20px;
     font-weight: 600;
     padding: 6px 16px;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .btn-warning:hover {
     transform: scale(1.05);
 }
 
-/* Dropdown */
+/* ================= DROPDOWN ================= */
 .dropdown-menu {
     border-radius: 10px;
     border: none;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-item {
     padding: 8px 15px;
-    transition: 0.2s;
+    transition: 0.2s ease;
 }
 
 .dropdown-item:hover {
@@ -92,17 +106,193 @@ body {
     color: #0a3d0a;
 }
 
+/* ================= INTRO ================= */
+.intro {
+    color: white;
+    background-color: rgba(0, 54, 12, 0.7);
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 1rem auto;
+    max-width: 1100px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+}
+
+.intro h1 {
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    color: white;
+    background-color: rgba(0, 32, 2, 0.85);
+    border-radius: 1rem;
+    padding: 0.8rem 1rem;
+    display: inline-block;
+    max-width: 850px;
+}
+
+.intro h2 {
+    color: rgb(255, 252, 58);
+    margin-top: 1rem;
+}
+
+/* ================= CAROUSEL ================= */
+.carousel-section {
+    margin-bottom: 2rem;
+}
+
 .carousel-inner {
-    border-bottom: rgb(0, 54, 12) 5px solid;
-    border-top: rgb(0, 54, 12) 5px solid;
+    border-top: 5px solid rgb(0, 54, 12);
+    border-bottom: 5px solid rgb(0, 54, 12);
+    overflow: hidden;
+}
+
+.carousel-item img {
+    max-height: 520px;
+    object-fit: cover;
 }
 
 .carousel-caption {
-    padding: 6px;
-    right: 25%;
-    left: 25%;
-    background-color: rgba(43, 70, 23, 0.5);
-    bottom: 3rem;
+    position: absolute;
+    left: 50% !important;
+    right: auto !important;
+    bottom: 1rem;
+    transform: translateX(-50%);
+    
+    width: 10rem;
+    padding: 12px;
+
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-caption h5 {
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption .btn {
+    display: inline-block;
+    width: auto;
+}
+
+/* ================= BADGES ================= */
+.badge {
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    border-radius: 999px;
+}
+
+/* ================= SEÇÕES INFORMATIVAS ================= */
+.info-section {
+    background-color: transparent !important;
+}
+
+.info-card {
+    background: rgba(195, 255, 180, 0.92);
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.16);
+}
+
+.info-content h2 {
+    color: #103b10;
+    margin-bottom: 1rem;
+}
+
+.info-content .lead {
+    font-size: 1.08rem;
+    line-height: 1.6;
+}
+
+.info-content ul li {
+    font-size: 1rem;
+    color: #173d17;
+}
+
+.info-image-wrapper {
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.info-image {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    object-fit: cover;
+}
+
+/* Caixa destacada sobre imagem */
+.info-highlight {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0.9rem 1rem;
     border-radius: 1rem;
-    backdrop-filter: blur(10px);
+    max-width: 260px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.info-highlight-warning {
+    background-color: rgba(255, 217, 61, 0.92);
+}
+
+/* ================= AJUSTES BOOTSTRAP ================= */
+.bg-light,
+.bg-white {
+    background-color: transparent !important;
+}
+
+/* ================= RESPONSIVIDADE ================= */
+@media (max-width: 991.98px) {
+    .carousel-caption {
+        right: 10%;
+        left: 10%;
+        bottom: 1.5rem;
+    }
+
+    .info-card {
+        padding: 1.2rem;
+    }
+
+    .info-image {
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .intro {
+        margin: 1rem;
+        padding: 1rem 0.8rem;
+    }
+
+    .intro p {
+        display: block;
+        width: 100%;
+    }
+
+    .carousel-caption {
+        right: 8%;
+        left: 8%;
+        bottom: 1rem;
+        padding: 0.7rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.1rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 0.9rem;
+        padding: 0.45rem 0.9rem;
+    }
+
+    .info-highlight {
+        position: static !important;
+        margin-top: 1rem !important;
+        max-width: 100%;
+    }
 }

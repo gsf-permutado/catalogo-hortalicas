@@ -44,6 +44,7 @@ body {
 
 .navbar-toggler:hover {
     background-color: rgba(0,0,0,0.6);
+    border: 2px solid #2b4617;
 }
 
 .navbar-toggler:focus {
@@ -94,4 +95,14 @@ body {
 .carousel-inner {
     border-bottom: rgb(0, 54, 12) 5px solid;
     border-top: rgb(0, 54, 12) 5px solid;
+}
+
+.carousel-caption {
+    padding: 6px;
+    right: 25%;
+    left: 25%;
+    background-color: rgba(43, 70, 23, 0.5);
+    bottom: 3rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
 }

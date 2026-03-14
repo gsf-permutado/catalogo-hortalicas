@@ -14,6 +14,7 @@ Para entender a base científica e técnica deste desenvolvimento, acesse os doc
 * 📊 [Contexto e Mercado (Hortaliças no DF)](docs/contexto.md) - Levantamento das principais culturas e dados econômicos.
 * 📄 [Escopo do Projeto](docs/escopo.md) - Objetivos, delimitação técnica e metas de entrega.
 * ☑️ [Requisitos do Sistema](docs/requisitos.md) - Definição de funcionalidades (RF) e critérios de qualidade (RNF).
+* 👨‍💻 [Stack Tecnológica](docs/stack.md) - Tecnologias utilizadas alinhadas com as principais necessidades.
 
 ## 🛠️ Tecnologias Utilizadas
 Focando em performance e compatibilidade com dispositivos móveis (Mobile-First):

@@ -143,8 +143,10 @@ body::before {
 }
 
 .carousel-inner {
-    border-top: 5px solid rgb(0, 54, 12);
-    border-bottom: 5px solid rgb(0, 54, 12);
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-image-source: linear-gradient(to right, rgba(0, 32, 2, 0.85), rgba(84, 156, 89, 0.85));
+    border-image-slice: 1;
     overflow: hidden;
 }
 

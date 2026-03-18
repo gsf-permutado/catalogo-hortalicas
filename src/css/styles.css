@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/bg/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -244,6 +244,20 @@ body::before {
 
 .info-highlight-warning {
     background-color: rgba(255, 217, 61, 0.92);
+}
+
+/* Elementos do sobre */
+.custom-border-top { 
+    border-top: 5px solid #198754 !important; 
+}
+
+.hover-shadow:hover { 
+    transform: translateY(-5px); 
+    transition: 0.3s; 
+}
+
+.bg-gradient-success { 
+    background: linear-gradient(45deg, #198754, #28a745); 
 }
 
 /* ================= AJUSTES BOOTSTRAP ================= */
